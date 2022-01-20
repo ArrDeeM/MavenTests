@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Get200Test" time="2.923" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Clayton Ritchie\IdeaProjects\WebAPIAutomation\target\test-classes;C:\Users\Clayton Ritchie\IdeaProjects\WebAPIAutomation\target\classes;C:\Users\Clayton Ritchie\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Clayton Ritchie\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Clayton Ritchie\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Clayton Ritchie\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Clayton Ritchie\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Clayton Ritchie\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Clayton Ritchie\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Clayton Ritchie\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Clayton Ritchie\.m2\repository\org\slf4j\slf4j-api\1.7.33\slf4j-api-1.7.33.jar;C:\Users\Clayton Ritchie\.m2\repository\org\slf4j\slf4j-simple\1.7.33\slf4j-simple-1.7.33.jar;C:\Users\Clayton Ritchie\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\Clayton Ritchie\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\Clayton Ritchie\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\Clayton Ritchie\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Clayton Ritchie\AppData\Local\Temp\surefire15726791426903886194\surefirebooter11915645232843359618.jar C:\Users\Clayton Ritchie\AppData\Local\Temp\surefire15726791426903886194 2022-01-19T19-32-17_418-jvmRun1 surefire3483175612446479032tmp surefire_04215689641315876572tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Clayton Ritchie\IdeaProjects\WebAPIAutomation\target\test-classes;C:\Users\Clayton Ritchie\IdeaProjects\WebAPIAutomation\target\classes;C:\Users\Clayton Ritchie\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Clayton Ritchie\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Clayton Ritchie\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Clayton Ritchie\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Clayton Ritchie\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Clayton Ritchie\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Clayton Ritchie\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Clayton Ritchie\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Clayton Ritchie\.m2\repository\org\slf4j\slf4j-api\1.7.33\slf4j-api-1.7.33.jar;C:\Users\Clayton Ritchie\.m2\repository\org\slf4j\slf4j-simple\1.7.33\slf4j-simple-1.7.33.jar;C:\Users\Clayton Ritchie\.m2\repository\org\json\json\20211205\json-20211205.jar;C:\Users\Clayton Ritchie\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\Clayton Ritchie\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\Clayton Ritchie\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Clayton Ritchie"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Clayton Ritchie\IdeaProjects\WebAPIAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Clayton Ritchie\AppData\Local\Temp\surefire15726791426903886194\surefirebooter11915645232843359618.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="Clayton Ritchie"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Clayton Ritchie\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CLAYTO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\Clayton Ritchie\IdeaProjects\WebAPIAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;c:\program files (x86)\intel\icls client\;c:\program files\intel\icls client\;c:\program files\common files\microsoft shared\windows live;c:\program files (x86)\common files\microsoft shared\windows live;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\program files (x86)\windows live\shared;c:\program files\intel\intel(r) management engine components\dal;c:\program files\intel\intel(r) management engine components\ipt;c:\program files (x86)\intel\intel(r) management engine components\dal;C:\Program Files (x86)\Java\jre1.8.0_321\bin;c:\program files (x86)\intel\intel(r) management engine components\ipt;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\MinGW\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Clayton Ritchie\.cargo\bin;C:\Users\Clayton Ritchie\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Clayton Ritchie\AppData\Local\Programs\Python\Python38-32\;C:\Users\Clayton Ritchie\AppData\Local\Microsoft\WindowsApps;C:\Users\Clayton Ritchie\AppData\Local\atom\bin;C:\Users\Clayton Ritchie\AppData\Local\Microsoft\WindowsApps;C:\Users\Clayton Ritchie\AppData\Roaming\npm;C:\Users\Clayton Ritchie\AppData\Local\Yarn\bin;C:\tools\mysql\current\bin;C:\Users\Clayton Ritchie\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Clayton Ritchie\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\apache-maven-3.8.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="baseUrlReturns200" classname="Get200Test" time="0.736"/>
+  <testcase name="rateReturns200" classname="Get200Test" time="0.243"/>
+  <testcase name="searchReturns200" classname="Get200Test" time="1.368"/>
+</testsuite>
